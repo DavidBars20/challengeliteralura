@@ -65,6 +65,7 @@ Permite filtrar os livros registrados no banco de dados com base no idioma espec
 - Crie um banco de dados chamado `literalura` e ajuste as configurações no arquivo `application.properties`.
 
 ### Endpoints Disponíveis
+
 Método	Endpoint	Descrição
 GET	/api/books	Lista todos os livros registrados.
 POST	/api/books	Armazena um novo livro no banco.
@@ -88,25 +89,4 @@ spring.datasource.password=sua_senha
 spring.jpa.show-sql=true
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.format_sql=true
-
-
-### Endpoints Disponíveis
-Método	Endpoint	Descrição
-GET	/api/books	Lista todos os livros registrados.
-POST	/api/books	Armazena um novo livro no banco.
-GET	/api/books/search	Busca livros na API Gutendex.
-GET	/api/authors	Lista todos os autores registrados.
-GET	/api/authors/vivos/{ano}	Lista autores vivos em um ano.
-GET	/api/books/language/{id}	Lista livros em um idioma específico.
-
-### Contribuindo
-
-Se deseja contribuir para este projeto, sinta-se à vontade para enviar sugestões, relatórios de bugs ou pull requests.
-
-
-
-
-
-
-
 
